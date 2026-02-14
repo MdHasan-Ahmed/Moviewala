@@ -1,1 +1,11 @@
-@import "tailwindcss"
+.bebas{
+  font-family:"Bebas Neue", sans-serif;
+}
+
+.anton{
+  font-family: "Anton", sans-serif;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+}

@@ -9,3 +9,32 @@
 .inter{
   font-family: "Inter", sans-serif;
 }
+
+@keyframes smoothBounce {
+  0%{
+    transform: translateY(-40px);
+  }
+
+  50%{
+    transform: translateY(0);
+  }
+
+  100%{
+    transform: translateY(-40px);
+  }
+}
+
+.bounce{
+  transform: translateY(-40px);
+  animation: smoothBounce 2.5s ease-in-out infinite;
+}
+
+.delay1{
+  animation-delay: .5s;
+}
+.delay2{
+  animation-delay: 1s;
+}
+.delay3{
+  animation-delay: 1.5s;
+}

@@ -38,3 +38,34 @@
 .delay3{
   animation-delay: 1.5s;
 }
+
+@keyframes scaling{
+  0%{
+    transform: scale(1);
+  }
+
+  50%{
+    transform: scale(1.1);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
+.scales{
+  display: inline-block;
+  animation: scaling 2.5s ease-in-out infinite;
+}
+
+.shadow-text{
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.drop-shadow{
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.hover-scale{
+  
+}
